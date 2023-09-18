@@ -6,7 +6,6 @@ import axios from "axios";
 import Loader from "react-loader-spinner";
 import WeatherSearch from "./WeatherSearch";
 
-import "./App.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
