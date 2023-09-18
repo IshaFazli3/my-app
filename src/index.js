@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import App from './WeatherSearch';
 import reportWebVitals from './reportWebVitals';
 import axios from "axios";
 import Loader from "react-loader-spinner";
+import WeatherSearch from "./WeatherSearch";
+
+import "./App.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <div className="App">
+      <h1>Weather App</h1>
+      <WeatherSearch />
+    </div>
   </React.StrictMode>
 );
 
